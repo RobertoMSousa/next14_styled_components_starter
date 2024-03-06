@@ -1,6 +1,6 @@
 {
-  "name": "j0nezz-next-starter",
-  "version": "0.2.0",
+  "name": "nextjs_14_styled_components_starter",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
