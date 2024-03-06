@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "@typescript-eslint/eslint-plugin",
+    "10x",
+    "prettier",
+    "react-hooks",
+    "eslint-plugin-no-inline-styles"
+  ],
+  "extends": ["next", "prettier"],
+  "rules": {
+    "indent": "off",
+    "no-inline-styles/no-inline-styles": 2,
+    "react/jsx-curly-brace-presence": "off",
+    "require-atomic-updates": "off",
+    "10x/no-full-import": "error",
+    "no-unused-vars": "off",
+    "react/display-name": "off",
+    "@typescript-eslint/no-unused-vars": ["error"]
+  }
+}

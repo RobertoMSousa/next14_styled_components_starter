@@ -1,0 +1,40 @@
+{
+  "name": "j0nezz-next-starter",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "next lint && yarn lint:css",
+    "lint:css": "stylelint './src/**/*.{tsx,js,ts}'"
+  },
+  "dependencies": {
+    "next": "^14.0.4",
+    "next-seo": "^6.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.3",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-10x": "^1.5.0",
+    "eslint-plugin-no-inline-styles": "^1.0.5",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss-styled-syntax": "^0.5.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "stylelint": "^16.0.2",
+    "stylelint-config-recommended": "^14.0.0",
+    "stylelint-config-standard": "^35.0.0",
+    "typescript": "^4.7.4"
+  }
+}
